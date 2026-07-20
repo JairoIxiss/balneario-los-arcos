@@ -1,6 +1,6 @@
 const Beneficios = () => {
     return (
-        <section id="beneficios" className="w-full min-h-3/4 bg-cover bg-center bg-no-repeat flex flex-col text-[#F5EBE0] font-nunito px-4 relative" style={{ backgroundImage: 'url("/src/assets/manantial-2.png")', }}>
+        <section id="beneficios" className="w-full min-h-3/4 bg-cover bg-center bg-no-repeat flex flex-col text-[#F5EBE0] font-nunito px-4 relative" style={{ backgroundImage: 'url("/manantial-2.png")', }}>
             <div className="absolute inset-0 bg-black/40" />
             <div className="relative z-10 max-w-4xl py-20 px-5">
                 <h2 className="text-3xl font-bold mb-6">El poder de los Minerales</h2>

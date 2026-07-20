@@ -13,7 +13,7 @@ const Experiencias = () => {
                 <div className="py-5 grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                     <div className="max-w-xs bg-[#F5EBE0] rounded-xl overflow-hidden hover:-translate-y-2 hover:shadow-lg transition duration-300 mb-4">
                         <div className="h-70">
-                            <img className="w-full h-full object-cover" src="/src/assets/albercas.png" alt="Albercas Termales" />
+                            <img className="w-full h-full object-cover" src="/albercas.png" alt="Albercas Termales" />
                         </div>
                         <div className="p-3">
                             <h3 className="text-xl font-bold text-[#293417]">
@@ -26,7 +26,7 @@ const Experiencias = () => {
                     </div>
                     <div className="max-w-xs bg-[#F5EBE0] rounded-xl overflow-hidden hover:-translate-y-2 hover:shadow-lg transition duration-300 mb-4">
                         <div className="h-70">
-                            <img className="w-full h-full object-cover" src="/src/assets/restaurante.png" alt="Restaurante Tradicional" />
+                            <img className="w-full h-full object-cover" src="/restaurante.png" alt="Restaurante Tradicional" />
                         </div>
                         <div className="p-3">
                             <h3 className="text-xl font-bold text-[#293417]">
@@ -39,7 +39,7 @@ const Experiencias = () => {
                     </div>
                     <div className="max-w-xs bg-[#F5EBE0] rounded-xl overflow-hidden hover:-translate-y-2 hover:shadow-lg transition duration-300 mb-4">
                         <div className="h-70">
-                            <img className="w-full h-full object-cover" src="/src/assets/area-verde.png" alt="Albercas Termales" />
+                            <img className="w-full h-full object-cover" src="/area-verde.png" alt="Albercas Termales" />
                         </div>
                         <div className="p-3">
                             <h3 className="text-xl font-bold text-[#293417]">
@@ -52,7 +52,7 @@ const Experiencias = () => {
                     </div>
                     <div className="max-w-xs bg-[#F5EBE0] rounded-xl overflow-hidden hover:-translate-y-2 hover:shadow-lg transition duration-300 mb-4">
                         <div className="h-70">
-                            <img className="w-full h-full object-cover" src="/src/assets/tienda.png" alt="Albercas Termales" />
+                            <img className="w-full h-full object-cover" src="/tienda.png" alt="Albercas Termales" />
                         </div>
                         <div className="p-3">
                             <h3 className="text-xl font-bold text-[#293417]">
