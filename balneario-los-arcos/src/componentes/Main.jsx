@@ -1,7 +1,7 @@
 const MainSection = () => {
     const baseUrl = import.meta.env.BASE_URL;
     return (
-        <section className="w-full min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center text-[#F5EBE0] font-nunito px-4 relative" style={{backgroundImage: 'url("${baseUrl}main.png")', }}>
+        <section className="w-full min-h-screen bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center text-[#F5EBE0] font-nunito px-4 relative" style={{backgroundImage: `url("${baseUrl}main.png")`, }}>
             <div className="absolute inset-0 bg-black/40" />
             <div className="relative z-10 max-w-4xl mx-auto">
                 <h1 className="text-5xl md:text-7xl font-bold mb-4">
