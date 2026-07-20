@@ -1,4 +1,5 @@
 const AguasTermales = () => {
+    const baseUrl = import.meta.env.BASE_URL;
     return (
         <section id="aguas-termales" className="bg-[#F5EBE0] py-15 font-nunito mx-auto px-10">
             <div className="flex flex-col justify-center items-center">
@@ -14,7 +15,7 @@ const AguasTermales = () => {
                     </p>
                 </div>
                 <div className="mb-8 w-full max-w-xs">
-                    <img className="rounded-3xl shadow-xl" src="/manantial.png" alt="Manantial de Aguas Termales" />
+                    <img className="rounded-3xl shadow-xl" src="${baseUrl}manantial.png" alt="Manantial de Aguas Termales" />
                 </div>
                 <div className="grid grid-cols-2 gap-8">
                     <div className="bg-[#EBE1D6] rounded-3xl shadow-2xs flex flex-col justify-center items-center p-3">
